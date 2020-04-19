@@ -1,0 +1,46 @@
+/* 设置网页内容居中 */
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+/* 设置标题栏高度和背景色 */
+.header-bar {
+	height: 40px;
+	line-height: 40px;
+	background-color: #F0F0F5;
+}
+/* 设置网站标题靠左显示、字体大小和颜色 */
+.header-title {
+	float: left;
+	font-size: 1.6em;
+	color: #31343B;
+}
+/* 设置登录按钮靠右显示、文字颜色、下划线取消 */
+.header-button {
+	float: right;
+	color: #9DBF51;
+	text-decoration: none;
+}
+
+/* 设置表格标题字体颜色 */
+.news_table thead {
+	color: #00CC6A;
+}
+
+/* 设置表格边框样式、颜色，设置表格宽度 */
+.news_table tr td {
+	border-collapse: collapse;
+	border: 1px solid #F0F0F5;
+	width: 1000px;
+}
+
+/* 设置表格内链接的样式 */
+.news_table tr a {
+	color: #3C9AE5;
+	text-decoration: none;
+}
+
+/* 标题样式 */
+.article-title {
+	color: #00CC6A;
+}
